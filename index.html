@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050916">
+  <meta name="description" content="Explore Nolan's world of code, ideas, mathematics, and baseball.">
+  <title>Nolan | A connected world</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="universe" id="universe">
+    <canvas id="space" aria-hidden="true"></canvas>
+    <div class="atmosphere" aria-hidden="true"></div>
+    <div class="topline"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span><span>AN INTERCONNECTED PORTFOLIO</span><span class="topline-right"><span class="status-dot"></span> ONLINE &amp; EXPLORING</span></div>
+    <div class="intro"><p class="eyebrow"><span></span> HELLO, WORLD</p><h1>A little universe<br>of <em>ideas.</em></h1><p>Explore the connections that make me, me.</p></div>
+    <section class="network" aria-label="Explore Nolan's network">
+      <div class="center-orb" aria-label="Nolan, at the center of the network"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div><div class="center-content"><span>THE SPACE BETWEEN</span><strong>NOLAN</strong><small>CODE · CURIOSITY · CREATION</small></div></div>
+      <button class="node projects" data-node="projects" aria-label="Explore projects"><span class="orb"><span class="glyph">⌘</span></span><span class="node-label">PROJECTS<small>Things in motion</small></span></button>
+      <button class="node code" data-node="code" aria-label="Explore code"><span class="orb"><span class="glyph code-glyph">&lt;/&gt;</span></span><span class="node-label">CODE<small>Building &amp; learning</small></span></button>
+      <button class="node ai" data-node="ai" aria-label="Explore artificial intelligence"><span class="orb"><span class="glyph">✳</span></span><span class="node-label">AI<small>Ideas &amp; intelligence</small></span></button>
+      <button class="node math" data-node="math" aria-label="Explore mathematics"><span class="orb"><span class="glyph">∑</span></span><span class="node-label">MATHEMATICS<small>Patterns &amp; possibility</small></span></button>
+      <button class="node baseball" data-node="baseball" aria-label="Explore baseball"><span class="orb"><span class="glyph baseball-glyph">◉</span></span><span class="node-label">BASEBALL<small>Beyond the screen</small></span></button>
+      <button class="node connect" data-node="connect" aria-label="Connect with Nolan"><span class="orb"><span class="glyph">↗</span></span><span class="node-label">CONNECT<small>Let's connect</small></span></button>
+    </section>
+    <div class="bottomline"><div><span class="mouse-icon" aria-hidden="true"></span><span>HOVER TO DISCOVER <b>·</b> SELECT TO EXPLORE</span></div><span class="coordinates">A WORLD IN PROGRESS <b>✳</b> ALWAYS EVOLVING</span><button id="motion" type="button" aria-pressed="false">PAUSE MOTION <span>Ⅱ</span></button></div>
+    <dialog id="detail" aria-labelledby="detail-title" aria-describedby="detail-description">
+      <div class="dialog-glow" aria-hidden="true"></div><button class="close" type="button" aria-label="Close details">×</button><div class="dialog-inner"><div class="dialog-symbol" aria-hidden="true"></div><p class="eyebrow"><span></span> A CLOSER LOOK <b class="dialog-number"></b></p><h2 id="detail-title"></h2><p id="detail-description"></p><div id="detail-extra"></div><div class="dialog-footer"><span>PART OF THE NETWORK</span><span>✳</span></div></div>
+    </dialog>
+  </main>
+</body>
+</html>
